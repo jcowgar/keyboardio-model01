@@ -63,7 +63,7 @@ KEYMAPS(
     Key_Equals,        Key_1, Key_2, Key_3, Key_4, Key_5, Key_LEDEffectNext,
     Key_Tab,           Key_Q, Key_W, Key_E, Key_R, Key_T, Key_Home,
     Key_Backtick,      Key_A, Key_S, Key_D, Key_F, Key_G,
-    Key_Backslash,     Key_Z, Key_X, Key_C, Key_V, Key_B, Key_PageUp,
+    Key_Backslash,     Key_Z, Key_X, Key_C, Key_V, Key_B, Key_Escape,
     Key_LeftShift, Key_Spacebar, Key_Backspace, Key_End,
     ShiftToLayer(FUNCTION),
 
@@ -82,10 +82,10 @@ KEYMAPS(
     ___, Key_Enter, Key_Delete, ___,
     ___,
 
-    ___, Key_F7,                Key_F8,        Key_F9,        Key_F10,        Key_F11,                    Key_F12,
-    ___, Mac_EqualGreater,      Key_Home,      Key_UpArrow,   Key_End,        Consumer_ScanPreviousTrack, Consumer_VolumeIncrement,
-         Mac_EqualGreaterBrace, Key_LeftArrow, Key_DownArrow, Key_RightArrow, Consumer_PlaySlashPause,    Consumer_VolumeDecrement,
-    ___, Key_PageDown,          Mac_OpenAbove, Mac_OpenBelow, Mac_OpenBrace,  Consumer_ScanNextTrack,     Consumer_Mute,
+    ___, Key_F7,                Key_F8,               Key_F9,                Key_F10,        Key_F11,                    Key_F12,
+    ___, Mac_EqualGreater,      Key_LeftCurlyBracket, Key_RightCurlyBracket, Key_End,        Consumer_ScanPreviousTrack, Consumer_VolumeIncrement,
+         Key_LeftArrow,         Key_DownArrow,        Key_UpArrow,           Key_RightArrow, Consumer_PlaySlashPause,    Consumer_VolumeDecrement,
+    ___, Key_PageDown,          Mac_OpenAbove,        Mac_OpenBelow,         Mac_OpenBrace,  Consumer_ScanNextTrack,     Consumer_Mute,
     ___, Key_Backspace, Key_Spacebar, ___,  
     ___)
 	)
